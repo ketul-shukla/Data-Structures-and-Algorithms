@@ -1,6 +1,6 @@
 package SortingAlgorithms;
 
-public class BubbleSort {
+public class BubbleSort extends Sorting {
 
     public void bubbleSort(int data[]){
         int length = data.length;
@@ -15,16 +15,8 @@ public class BubbleSort {
         }
     }
 
-    public void printArray(int data[]){
-        int length = data.length;
-        for(int i=0; i<length; i++){
-            System.out.print(data[i]+", ");
-        }
-    }
-
     public static void main(String args[]){
         BubbleSort bubbleSort = new BubbleSort();
-        int data[] = {2,4,5,3,1};
 
         System.out.println("Unsorted Array");
         bubbleSort.printArray(data);
@@ -32,5 +24,7 @@ public class BubbleSort {
         System.out.println("Sorted Array");
         bubbleSort.bubbleSort(data);
         bubbleSort.printArray(data);
+
+        //Time Complexity of this algorithm is: O(n^2)
     }
 }
