@@ -25,5 +25,7 @@ public class InsertionSort extends Sorting {
         System.out.println("Sorted Array:");
         insertionSort.insertionSort(data);
         insertionSort.printArray(data);
+
+        //Time Complexity of this algorithm is: O(n^2)
     }
 }
