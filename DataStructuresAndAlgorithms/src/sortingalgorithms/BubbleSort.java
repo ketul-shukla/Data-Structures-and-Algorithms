@@ -1,4 +1,4 @@
-package SortingAlgorithms;
+package sortingalgorithms;
 
 public class BubbleSort extends Sorting {
 

@@ -1,4 +1,4 @@
-package SortingAlgorithms;
+package sortingalgorithms;
 
 public class Sorting {
     public static int data[] = {2,4,5,3,1};
