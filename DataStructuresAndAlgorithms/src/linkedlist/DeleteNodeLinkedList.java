@@ -21,7 +21,11 @@ public class DeleteNodeLinkedList extends LinkedList {
         deleteNode.add(2);
         deleteNode.add(1);
 
+        System.out.println("List before deleting a node:");
+        deleteNode.printList(deleteNode.head);
+
         deleteNode.deleteAtPosition(1);
-        deleteNode.printList();
+        System.out.println("List after deleting a node at specific position:");
+        deleteNode.printList(deleteNode.head);
     }
 }

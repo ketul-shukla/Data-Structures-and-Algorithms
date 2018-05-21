@@ -13,7 +13,7 @@ public class LinkedList {
         }
     }
 
-    public void printList(){
+    public void printList(ListNode head){
         while(head != null){
             System.out.println(head.data);
             head = head.next;
@@ -32,7 +32,7 @@ public class LinkedList {
         linkedList.add(2);
         linkedList.add(1);
 
-        linkedList.printList();
+        linkedList.printList(linkedList.head);
         /*
             A brute force method to first create the node and then connect them:
 

@@ -26,7 +26,11 @@ public class ReverseLinkedList extends LinkedList {
         reverseList.add(2);
         reverseList.add(3);
 
+        System.out.println("List before reverse:");
+        reverseList.printList(reverseList.head);
+
         reverseList.reverse();
-        reverseList.printList();
+        System.out.println("List after reverse:");
+        reverseList.printList(reverseList.head);
     }
 }

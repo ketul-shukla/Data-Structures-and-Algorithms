@@ -41,11 +41,19 @@ public class InsertNodeLinkedList extends LinkedList{
         insertNode.add(2);
         insertNode.add(1);
 
+        System.out.println("List before adding node:");
+        insertNode.printList(insertNode.head);
+
         insertNode.insertAtPosition(6,1);
+        System.out.println("List after adding node at specific position:");
+        insertNode.printList(insertNode.head);
+
         insertNode.insertAtHead(4);
+        System.out.println("List after adding node at head position:");
+        insertNode.printList(insertNode.head);
+
         insertNode.insertAtTail(5);
-
-        insertNode.printList();
-
+        System.out.println("List after adding node at tail position:");
+        insertNode.printList(insertNode.head);
     }
 }
