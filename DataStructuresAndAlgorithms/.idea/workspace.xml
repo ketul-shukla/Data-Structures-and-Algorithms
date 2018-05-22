@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a08bcd2-a171-436d-978a-35a35a3d4eff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/DeleteNodeLinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlist/DeleteNodeLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/InsertNodeLinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlist/InsertNodeLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/MergeLinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlist/MergeLinkedList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +18,8 @@
       <file leaf-file-name="MergeLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/linkedlist/MergeLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="302">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,11 +51,11 @@
         <option value="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/sortingalgorithms/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/CompareLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/MergeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/InsertNodeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/DeleteNodeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/MergeLinkedList.java" />
       </list>
     </option>
   </component>
@@ -138,26 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedList">
-    <configuration name="CompareLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="linkedlist.CompareLinkedList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructuresAndAlgorithms" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.MergeLinkedList">
     <configuration name="DeleteNodeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -204,6 +183,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructuresAndAlgorithms" />
+      <envs />
+    </configuration>
+    <configuration name="MergeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="linkedlist.MergeLinkedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -320,15 +318,15 @@
       <item index="1" class="java.lang.String" itemvalue="Application.InsertNodeLinkedList" />
       <item index="2" class="java.lang.String" itemvalue="Application.DeleteNodeLinkedList" />
       <item index="3" class="java.lang.String" itemvalue="Application.ReverseLinkedList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CompareLinkedList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MergeLinkedList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ReverseLinkedList" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DeleteNodeLinkedList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.InsertNodeLinkedList" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LinkedList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CompareLinkedList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MergeLinkedList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReverseLinkedList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DeleteNodeLinkedList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InsertNodeLinkedList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -350,12 +348,12 @@
       <workItem from="1522004721340" duration="536000" />
       <workItem from="1522005327996" duration="6945000" />
       <workItem from="1526759069801" duration="8669000" />
-      <workItem from="1526828007808" duration="6253000" />
+      <workItem from="1526828007808" duration="12125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22403000" />
+    <option name="totallyTimeSpent" value="28275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -380,7 +378,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39929742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -399,7 +397,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -506,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/MergeLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="302">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
