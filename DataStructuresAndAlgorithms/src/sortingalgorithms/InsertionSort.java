@@ -2,6 +2,7 @@ package sortingalgorithms;
 
 public class InsertionSort extends Sorting {
 
+    /* Version 1:
     public void insertionSort(int data[]){
         int length = data.length;
         for(int i=1; i<length; i++){
@@ -13,6 +14,23 @@ public class InsertionSort extends Sorting {
                 j = j-1;
             }
             data[j+1] = key;
+        }
+    }
+    */
+
+    // version 2: Easy Implementation:
+    public void insertionSort(int[] data){
+        int length = data.length;
+        for(int i = 0; i<length; i++){
+            for(int j=i; j>0; j--){
+                if(data[j] < data[j-1]){
+                    int temp = data[j];
+                    data[j] = data[j-1];
+                    data[j-1] = temp;
+                }else{
+                    break;
+                }
+            }
         }
     }
 

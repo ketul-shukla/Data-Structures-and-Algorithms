@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a08bcd2-a171-436d-978a-35a35a3d4eff" name="Default" comment="" />
+    <list default="true" id="7a08bcd2-a171-436d-978a-35a35a3d4eff" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sortingalgorithms/InsertionSort.java" afterPath="$PROJECT_DIR$/src/sortingalgorithms/InsertionSort.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,21 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InsertNodeInBST.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InsertNodeInBST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tree/InsertNodeInBST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
               <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -78,6 +70,7 @@
         <option value="$PROJECT_DIR$/src/tree/HeightOfTree.java" />
         <option value="$PROJECT_DIR$/src/tree/PostOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/tree/InsertNodeInBST.java" />
+        <option value="$PROJECT_DIR$/src/sortingalgorithms/InsertionSort.java" />
       </list>
     </option>
   </component>
@@ -87,7 +80,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="401" />
     <option name="y" value="207" />
     <option name="width" value="1510" />
@@ -158,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertNodeInBST">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="HeightOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -216,14 +209,14 @@
       <module name="DataStructuresAndAlgorithms" />
       <envs />
     </configuration>
-    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="sortingalgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="tree.LevelOrderTraversal" />
+      <option name="MAIN_CLASS_NAME" value="sortingalgorithms.InsertionSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -337,18 +330,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.InOrderTraversal" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LevelOrderTraversal" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HeightOfTree" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PostOrderTraversal" />
-      <item index="4" class="java.lang.String" itemvalue="Application.InsertNodeInBST" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HeightOfTree" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PostOrderTraversal" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InsertNodeInBST" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InsertionSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InsertNodeInBST" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InOrderTraversal" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PostOrderTraversal" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HeightOfTree" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LevelOrderTraversal" />
+        <item index="0" class="java.lang.String" itemvalue="Application.InsertionSort" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InsertNodeInBST" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InOrderTraversal" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PostOrderTraversal" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HeightOfTree" />
       </list>
     </recent_temporary>
   </component>
@@ -374,15 +367,15 @@
       <workItem from="1527185048632" duration="8885000" />
       <workItem from="1527359133435" duration="13989000" />
       <workItem from="1527785639507" duration="2455000" />
-      <workItem from="1527908467419" duration="10624000" />
+      <workItem from="1527908467419" duration="13124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76586000" />
+    <option name="totallyTimeSpent" value="79086000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -467,13 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -625,18 +611,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/InsertNodeInBST.java">
+    <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="-147">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        <state relative-caret-position="168">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/InsertNodeInBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding />
         </state>
       </provider>
