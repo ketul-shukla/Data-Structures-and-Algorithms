@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a08bcd2-a171-436d-978a-35a35a3d4eff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7a08bcd2-a171-436d-978a-35a35a3d4eff" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,28 +12,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FindIntersectionLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/FindIntersectionLinkedList.java">
+      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="982">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetImplementation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/array/SetImplementation.java">
+      <file leaf-file-name="MergeSortBottomUp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/MergeSortBottomUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1184">
-              <caret line="109" column="56" lean-forward="false" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-105">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,6 +83,8 @@
         <option value="$PROJECT_DIR$/src/linkedlist/AddLinkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/FindIntersectionLinkedList.java" />
         <option value="$PROJECT_DIR$/src/array/SetImplementation.java" />
+        <option value="$PROJECT_DIR$/src/sortingalgorithms/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/sortingalgorithms/MergeSortBottomUp.java" />
       </list>
     </option>
   </component>
@@ -138,7 +132,13 @@
               <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="sortingalgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,7 +157,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Semester 5/Algo/Assignment/Assignment 1/INFO6205-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Semester 5/Algo/Assignment/Assignment 2/INFO6205-master" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,45 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SetImplementation">
-    <configuration name="InOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="tree.InOrderTraversal" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructuresAndAlgorithms" />
-      <envs />
-    </configuration>
-    <configuration name="InsertNodeInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="tree.InsertNodeInBST" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructuresAndAlgorithms" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.MergeSortBottomUp">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -218,6 +180,44 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="sortingalgorithms.InsertionSort" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructuresAndAlgorithms" />
+      <envs />
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sortingalgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sortingalgorithms.MergeSort" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructuresAndAlgorithms" />
+      <envs />
+    </configuration>
+    <configuration name="MergeSortBottomUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sortingalgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sortingalgorithms.MergeSortBottomUp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -349,19 +349,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.InOrderTraversal" />
-      <item index="1" class="java.lang.String" itemvalue="Application.InsertNodeInBST" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InsertionSort" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TwoSum" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SetImplementation" />
+      <item index="0" class="java.lang.String" itemvalue="Application.InsertionSort" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TwoSum" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SetImplementation" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MergeSort" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MergeSortBottomUp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SetImplementation" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TwoSum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.InsertionSort" />
-        <item index="3" class="java.lang.String" itemvalue="Application.InsertNodeInBST" />
-        <item index="4" class="java.lang.String" itemvalue="Application.InOrderTraversal" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MergeSortBottomUp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MergeSort" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SetImplementation" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TwoSum" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -388,12 +388,12 @@
       <workItem from="1527359133435" duration="13989000" />
       <workItem from="1527785639507" duration="2455000" />
       <workItem from="1527908467419" duration="23319000" />
-      <workItem from="1529025772918" duration="9193000" />
+      <workItem from="1529025772918" duration="22207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98474000" />
+    <option name="totallyTimeSpent" value="111488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -408,7 +408,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -437,7 +437,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -477,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/Sorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack.java" />
     <entry file="file://$PROJECT_DIR$/src/stack/Check.java" />
     <entry file="file://$PROJECT_DIR$/src/stack/Stack.java" />
@@ -491,6 +484,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -505,14 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-147">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/InOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/InsertNodeInBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
@@ -653,10 +631,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/PostOrderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/array/SetImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="1533">
+          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#233#234#0" expanded="false" />
+            <element signature="e#290#291#0" expanded="false" />
+            <element signature="e#314#315#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/Sorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -669,17 +661,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/SetImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="109" column="56" lean-forward="false" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/PostOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/InOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sortingalgorithms/MergeSortBottomUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
