@@ -53,6 +53,5 @@ public class QuickSort extends Sorting {
         System.out.println("Data after sorting");
         quickSort.sort(data);
         quickSort.printArray(data);
-
     }
 }
